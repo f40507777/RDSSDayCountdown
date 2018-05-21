@@ -11,7 +11,20 @@
 		096F665220AB01DD0094B9D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F665120AB01DD0094B9D8 /* ViewController.swift */; };
 		096F665420AB01DD0094B9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096F665320AB01DD0094B9D8 /* Assets.xcassets */; };
 		096F665720AB01DD0094B9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096F665520AB01DD0094B9D8 /* Main.storyboard */; };
+		B6F8C3AA20B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8C3A920B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift */; };
+		B6F8C3B220B2F0B20028EDB5 /* DaysApart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8C3B120B2F0B20028EDB5 /* DaysApart.swift */; };
+		B6F8C3B320B2F13A0028EDB5 /* DaysApart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8C3B120B2F0B20028EDB5 /* DaysApart.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6F8C3AC20B2EE4A0028EDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 096F664420AB01DD0094B9D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096F664B20AB01DD0094B9D8;
+			remoteInfo = RDSSDayCountdown;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		096F664C20AB01DD0094B9D8 /* RDSSDayCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDSSDayCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +34,21 @@
 		096F665620AB01DD0094B9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		096F665820AB01DD0094B9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		096F665920AB01DD0094B9D8 /* RDSSDayCountdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RDSSDayCountdown.entitlements; sourceTree = "<group>"; };
+		B6F8C3A720B2EE4A0028EDB5 /* RDSSDayCountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDSSDayCountdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F8C3A920B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDSSDayCountdownTests.swift; sourceTree = "<group>"; };
+		B6F8C3AB20B2EE4A0028EDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F8C3B120B2F0B20028EDB5 /* DaysApart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysApart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		096F664920AB01DD0094B9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F8C3A420B2EE4A0028EDB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				096F664E20AB01DD0094B9D8 /* RDSSDayCountdown */,
+				B6F8C3A820B2EE4A0028EDB5 /* RDSSDayCountdownTests */,
 				096F664D20AB01DD0094B9D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				096F664C20AB01DD0094B9D8 /* RDSSDayCountdown.app */,
+				B6F8C3A720B2EE4A0028EDB5 /* RDSSDayCountdownTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,12 +81,22 @@
 			children = (
 				096F664F20AB01DD0094B9D8 /* AppDelegate.swift */,
 				096F665120AB01DD0094B9D8 /* ViewController.swift */,
+				B6F8C3B120B2F0B20028EDB5 /* DaysApart.swift */,
 				096F665320AB01DD0094B9D8 /* Assets.xcassets */,
 				096F665520AB01DD0094B9D8 /* Main.storyboard */,
 				096F665820AB01DD0094B9D8 /* Info.plist */,
 				096F665920AB01DD0094B9D8 /* RDSSDayCountdown.entitlements */,
 			);
 			path = RDSSDayCountdown;
+			sourceTree = "<group>";
+		};
+		B6F8C3A820B2EE4A0028EDB5 /* RDSSDayCountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6F8C3A920B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift */,
+				B6F8C3AB20B2EE4A0028EDB5 /* Info.plist */,
+			);
+			path = RDSSDayCountdownTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,19 +119,42 @@
 			productReference = 096F664C20AB01DD0094B9D8 /* RDSSDayCountdown.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B6F8C3A620B2EE4A0028EDB5 /* RDSSDayCountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F8C3B020B2EE4A0028EDB5 /* Build configuration list for PBXNativeTarget "RDSSDayCountdownTests" */;
+			buildPhases = (
+				B6F8C3A320B2EE4A0028EDB5 /* Sources */,
+				B6F8C3A420B2EE4A0028EDB5 /* Frameworks */,
+				B6F8C3A520B2EE4A0028EDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6F8C3AD20B2EE4A0028EDB5 /* PBXTargetDependency */,
+			);
+			name = RDSSDayCountdownTests;
+			productName = RDSSDayCountdownTests;
+			productReference = B6F8C3A720B2EE4A0028EDB5 /* RDSSDayCountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		096F664420AB01DD0094B9D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Marcus Wu";
 				TargetAttributes = {
 					096F664B20AB01DD0094B9D8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					B6F8C3A620B2EE4A0028EDB5 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 096F664B20AB01DD0094B9D8;
 					};
 				};
 			};
@@ -113,6 +172,7 @@
 			projectRoot = "";
 			targets = (
 				096F664B20AB01DD0094B9D8 /* RDSSDayCountdown */,
+				B6F8C3A620B2EE4A0028EDB5 /* RDSSDayCountdownTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +187,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6F8C3A520B2EE4A0028EDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -134,12 +201,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F8C3B220B2F0B20028EDB5 /* DaysApart.swift in Sources */,
 				096F665220AB01DD0094B9D8 /* ViewController.swift in Sources */,
 				096F665020AB01DD0094B9D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6F8C3A320B2EE4A0028EDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F8C3AA20B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift in Sources */,
+				B6F8C3B320B2F13A0028EDB5 /* DaysApart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6F8C3AD20B2EE4A0028EDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096F664B20AB01DD0094B9D8 /* RDSSDayCountdown */;
+			targetProxy = B6F8C3AC20B2EE4A0028EDB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		096F665520AB01DD0094B9D8 /* Main.storyboard */ = {
@@ -291,6 +376,44 @@
 			};
 			name = Release;
 		};
+		B6F8C3AE20B2EE4A0028EDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L8HLZFC48L;
+				INFOPLIST_FILE = RDSSDayCountdownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finn.RDSSDayCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDSSDayCountdown.app/Contents/MacOS/RDSSDayCountdown";
+			};
+			name = Debug;
+		};
+		B6F8C3AF20B2EE4A0028EDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L8HLZFC48L;
+				INFOPLIST_FILE = RDSSDayCountdownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Finn.RDSSDayCountdownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDSSDayCountdown.app/Contents/MacOS/RDSSDayCountdown";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -308,6 +431,15 @@
 			buildConfigurations = (
 				096F665D20AB01DD0094B9D8 /* Debug */,
 				096F665E20AB01DD0094B9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F8C3B020B2EE4A0028EDB5 /* Build configuration list for PBXNativeTarget "RDSSDayCountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F8C3AE20B2EE4A0028EDB5 /* Debug */,
+				B6F8C3AF20B2EE4A0028EDB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
