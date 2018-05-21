@@ -11,6 +11,8 @@
 		096F665220AB01DD0094B9D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F665120AB01DD0094B9D8 /* ViewController.swift */; };
 		096F665420AB01DD0094B9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096F665320AB01DD0094B9D8 /* Assets.xcassets */; };
 		096F665720AB01DD0094B9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096F665520AB01DD0094B9D8 /* Main.storyboard */; };
+		13F589AFB76A244A0179DD4A /* Pods_RDSSDayCountdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A34790376F1129657BD5FD /* Pods_RDSSDayCountdown.framework */; };
+		1E6323C9ADEDAADFDDC3E96A /* Pods_RDSSDayCountdownTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02CF10A558089715FAD1990 /* Pods_RDSSDayCountdownTests.framework */; };
 		B6F8C3AA20B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8C3A920B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift */; };
 		B6F8C3B220B2F0B20028EDB5 /* DaysApart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8C3B120B2F0B20028EDB5 /* DaysApart.swift */; };
 		B6F8C3B320B2F13A0028EDB5 /* DaysApart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8C3B120B2F0B20028EDB5 /* DaysApart.swift */; };
@@ -34,10 +36,16 @@
 		096F665620AB01DD0094B9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		096F665820AB01DD0094B9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		096F665920AB01DD0094B9D8 /* RDSSDayCountdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RDSSDayCountdown.entitlements; sourceTree = "<group>"; };
+		2A6BF8B3569E1E1529794B02 /* Pods-RDSSDayCountdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RDSSDayCountdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-RDSSDayCountdown/Pods-RDSSDayCountdown.release.xcconfig"; sourceTree = "<group>"; };
+		59A34790376F1129657BD5FD /* Pods_RDSSDayCountdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RDSSDayCountdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9666F326F5247F81BA1ED7E7 /* Pods-RDSSDayCountdownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RDSSDayCountdownTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RDSSDayCountdownTests/Pods-RDSSDayCountdownTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6F8C3A720B2EE4A0028EDB5 /* RDSSDayCountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDSSDayCountdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F8C3A920B2EE4A0028EDB5 /* RDSSDayCountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDSSDayCountdownTests.swift; sourceTree = "<group>"; };
 		B6F8C3AB20B2EE4A0028EDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6F8C3B120B2F0B20028EDB5 /* DaysApart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysApart.swift; sourceTree = "<group>"; };
+		D43C841B40746E09E159471C /* Pods-RDSSDayCountdownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RDSSDayCountdownTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RDSSDayCountdownTests/Pods-RDSSDayCountdownTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1672F16314E3623AB1872E7 /* Pods-RDSSDayCountdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RDSSDayCountdown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RDSSDayCountdown/Pods-RDSSDayCountdown.debug.xcconfig"; sourceTree = "<group>"; };
+		F02CF10A558089715FAD1990 /* Pods_RDSSDayCountdownTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RDSSDayCountdownTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F589AFB76A244A0179DD4A /* Pods_RDSSDayCountdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6323C9ADEDAADFDDC3E96A /* Pods_RDSSDayCountdownTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				096F664E20AB01DD0094B9D8 /* RDSSDayCountdown */,
 				B6F8C3A820B2EE4A0028EDB5 /* RDSSDayCountdownTests */,
 				096F664D20AB01DD0094B9D8 /* Products */,
+				81383A161977C8AC4A699140 /* Pods */,
+				7506CE0DD2092FB10ABBD457 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +102,26 @@
 			path = RDSSDayCountdown;
 			sourceTree = "<group>";
 		};
+		7506CE0DD2092FB10ABBD457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A34790376F1129657BD5FD /* Pods_RDSSDayCountdown.framework */,
+				F02CF10A558089715FAD1990 /* Pods_RDSSDayCountdownTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81383A161977C8AC4A699140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1672F16314E3623AB1872E7 /* Pods-RDSSDayCountdown.debug.xcconfig */,
+				2A6BF8B3569E1E1529794B02 /* Pods-RDSSDayCountdown.release.xcconfig */,
+				9666F326F5247F81BA1ED7E7 /* Pods-RDSSDayCountdownTests.debug.xcconfig */,
+				D43C841B40746E09E159471C /* Pods-RDSSDayCountdownTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B6F8C3A820B2EE4A0028EDB5 /* RDSSDayCountdownTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 096F665C20AB01DD0094B9D8 /* Build configuration list for PBXNativeTarget "RDSSDayCountdown" */;
 			buildPhases = (
+				765AA09F3BF6F41990744A03 /* [CP] Check Pods Manifest.lock */,
 				096F664820AB01DD0094B9D8 /* Sources */,
 				096F664920AB01DD0094B9D8 /* Frameworks */,
 				096F664A20AB01DD0094B9D8 /* Resources */,
+				D58F4A91D3D865BCAE5BAB99 /* [CP] Embed Pods Frameworks */,
+				113B266AB6FB3B88A6E8489A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6F8C3B020B2EE4A0028EDB5 /* Build configuration list for PBXNativeTarget "RDSSDayCountdownTests" */;
 			buildPhases = (
+				C28E4E581467A8E8BEA59F5A /* [CP] Check Pods Manifest.lock */,
 				B6F8C3A320B2EE4A0028EDB5 /* Sources */,
 				B6F8C3A420B2EE4A0028EDB5 /* Frameworks */,
 				B6F8C3A520B2EE4A0028EDB5 /* Resources */,
+				BDB5249A07F7A8EBDB0FCAA3 /* [CP] Embed Pods Frameworks */,
+				38DB554E04449CB68DACAD85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113B266AB6FB3B88A6E8489A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RDSSDayCountdown/Pods-RDSSDayCountdown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38DB554E04449CB68DACAD85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RDSSDayCountdownTests/Pods-RDSSDayCountdownTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765AA09F3BF6F41990744A03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB5249A07F7A8EBDB0FCAA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RDSSDayCountdownTests/Pods-RDSSDayCountdownTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28E4E581467A8E8BEA59F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D58F4A91D3D865BCAE5BAB99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RDSSDayCountdown/Pods-RDSSDayCountdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		096F664820AB01DD0094B9D8 /* Sources */ = {
@@ -346,6 +477,7 @@
 		};
 		096F665D20AB01DD0094B9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1672F16314E3623AB1872E7 /* Pods-RDSSDayCountdown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RDSSDayCountdown/RDSSDayCountdown.entitlements;
@@ -362,6 +494,7 @@
 		};
 		096F665E20AB01DD0094B9D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6BF8B3569E1E1529794B02 /* Pods-RDSSDayCountdown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RDSSDayCountdown/RDSSDayCountdown.entitlements;
@@ -378,6 +511,7 @@
 		};
 		B6F8C3AE20B2EE4A0028EDB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9666F326F5247F81BA1ED7E7 /* Pods-RDSSDayCountdownTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -397,6 +531,7 @@
 		};
 		B6F8C3AF20B2EE4A0028EDB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43C841B40746E09E159471C /* Pods-RDSSDayCountdownTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;

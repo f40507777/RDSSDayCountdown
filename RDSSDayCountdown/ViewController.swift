@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.squareLength)
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -1,0 +1,6 @@
+framework module Pods_RDSSDayCountdown {
+  umbrella header "Pods-RDSSDayCountdown-umbrella.h"
+
+  export *
+  module * { export * }
+}
