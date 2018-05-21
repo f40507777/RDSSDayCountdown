@@ -266,7 +266,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDSSDayCountdown/RDSSDayCountdown.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CDL4Q49RXS;
+				DEVELOPMENT_TEAM = L8HLZFC48L;
 				INFOPLIST_FILE = RDSSDayCountdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Marcus-Wu.RDSSDayCountdown";
@@ -282,7 +282,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDSSDayCountdown/RDSSDayCountdown.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CDL4Q49RXS;
+				DEVELOPMENT_TEAM = L8HLZFC48L;
 				INFOPLIST_FILE = RDSSDayCountdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Marcus-Wu.RDSSDayCountdown";
